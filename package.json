@@ -1,0 +1,25 @@
+{
+  "name": "ng-observable",
+  "version": "1.0.0",
+  "description": "The `ngObserver` is a simple angularjs module which provides integration with the observer pattern and the Scope API via the {@link ngObserver.$observable} service.",
+  "main": "./src/ng-observable.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lenilsondc/ng-observer.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "jsdoc-to-markdown": "^2.0.1"
+  },
+  "scripts": {
+    "jsdoc": "jsdoc2md ./src/ng-observable.js > README.md",
+    "dist": "npm run jsdoc & gulp"
+  },
+  "author": "Lenilson de Castro",
+  "license": "MIT"
+}
