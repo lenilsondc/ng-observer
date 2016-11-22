@@ -55,9 +55,9 @@
      *  
      * ````js 
      * angular.module('myApp')
-     *      .service('ServiceA', function($observervable, $http) {
+     *      .service('ServiceA', function($observable, $http) {
      *      
-     *          var subject = $observervable();
+     *          var subject = $observable();
      * 
      *          this.getData = function() {
      * 
